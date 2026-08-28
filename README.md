@@ -2,7 +2,7 @@
 
 A small two-player Tic-Tac-Toe game built while following Maximilian Schwarzmüller's React course. It focuses on component composition, state management, derived values, event handling, and conditional rendering.
 
-**Live site:** [tic-tac-toe.arfadaei.ir](https://tic-tac-toe.arfadaei.ir)
+**Live site:** [xo.arfadaei.ir](https://xo.arfadaei.ir)
 
 ## Features
 
@@ -82,18 +82,18 @@ The project is configured to deploy automatically to GitHub Pages whenever a com
 The file `public/CNAME` configures GitHub Pages to use:
 
 ```text
-tic-tac-toe.arfadaei.ir
+xo.arfadaei.ir
 ```
 
 In Cloudflare DNS, add this record:
 
 | Type | Name | Target |
 | --- | --- | --- |
-| `CNAME` | `tic-tac-toe` | `Aliz-f.github.io` |
+| `CNAME` | `xo` | `Aliz-f.github.io` |
 
 Initially set the record to **DNS only** (gray cloud) so GitHub can verify the domain. Once GitHub shows the domain as verified and HTTPS is working, the Cloudflare proxy can be enabled if desired.
 
-In **Settings → Pages**, confirm the custom domain is `tic-tac-toe.arfadaei.ir`, then enable **Enforce HTTPS** when the option becomes available.
+In **Settings → Pages**, confirm the custom domain is `xo.arfadaei.ir`, then enable **Enforce HTTPS** when the option becomes available.
 
 ## How to Play
 
