@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints / Screens */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  --background-image-pattern: url("bg-pattern.png");
+  --background-image-dark-pattern: url("bg-pattern-dark.png");
+
+  --font-sans: "Acme", sans-serif;
+}
+
+@layer utilities {
+  .active-player {
+    @apply border rounded-2xl border-amber-300 text-amber-300 animate-pulse transition duration-300;
+  }
+
+  .active-player-symbol {
+    @apply text-red-500 animate-pulse;
+  }
+}
